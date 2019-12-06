@@ -3,18 +3,29 @@ library(tidyverse)
 library(treemap)
 library(colorspace)
 
-#load dataset (Kelly Caylor FOR groups and divisions from all publications)
-k_data <- read.table("Documents/21_Fall_19/ERI-5-year-review/publications/ERI-publications-Caylor-treemap.csv", header=T, sep=",")
-colnames(k_data) <- c("ind", "division", "group", "label", "count")
-#head(k_data)
+# TO DO deduplicate groups where divisions are also assigned
+#load 2009-2014 ERI data (groups and divisions)
+# data <- read.table("Documents/21_Fall_19/ERI-5-year-review/data/publications/ERI-publications-2009-2014-treemap.csv", header=T, sep=",")
+# colnames(data) <- c("ind", "division", "group", "label", "count")
+# #head(data)
 
-#load dataset (all of ERI groups and divisions from all publications)
-data <- read.table("Documents/21_Fall_19/ERI-5-year-review/publications/ERI-publications-treemap.csv", header=T, sep=",")
+#load 2014-2019 ERI data (groups and divisions)
+data <- read.table("Documents/21_Fall_19/ERI-5-year-review/data/publications/ERI-publications-2014-2019-treemap.csv", header=T, sep=",")
 colnames(data) <- c("ind", "division", "group", "label", "count")
 #head(data)
 
+#load 2009-2014 PI data (groups and divisions)
+# data <- read.table("Documents/21_Fall_19/ERI-5-year-review/data/publications/ERI-publications-Siegel-2009-2014-treemap.csv", header=T, sep=",")
+# colnames(data) <- c("ind", "division", "group", "label", "count")
+#head(data)
+
+#load 2014-2019 PI data (groups and divisions)
+# data <- read.table("Documents/21_Fall_19/ERI-5-year-review/data/publications/ERI-publications-Siegel-2014-2019-treemap.csv", header=T, sep=",")
+# colnames(data) <- c("ind", "division", "group", "label", "count")
+#head(data)
+
 # set hex symbology for all treemaps (qualitative, 22 divisions)
-# TODO standardize symbology across treemaps (e.g. 04 orange in any map)
+# TO DO standardize symbology across treemaps (e.g. 04 orange in any map)
 #pal <- qualitative_hcl(21)
 (jColors <-
     with(data,
@@ -40,7 +51,7 @@ p <- treemap(data,
              # algorithm = "squarified",
 
              # main
-             title="ERI: Fields of Research",
+             title="ERI: Fields of Research (2014-2019)",
              fontsize.title = 22,
              palette=jColors$color[match(data$group, jColors$group)],
 
@@ -57,7 +68,7 @@ p <- treemap(data,
              overlap.labels=0.5, inflate.labels=T,
              
              # legend
-             title.legend="FOR Divisions",
+             title.legend="Field of Research (division)",
              fontsize.legend = 10,
              position.legend = "right",
              format.legend = NULL,

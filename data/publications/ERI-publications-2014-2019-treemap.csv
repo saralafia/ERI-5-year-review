@@ -1,0 +1,132 @@
+,division,group,label,count
+0,Biological Sciences, 06 Biological Sciences,6,1426
+1,Earth Sciences,04 Earth Sciences,4,772
+3,Environmental Sciences, 0502 Environmental Science and Management,502,647
+4,Biological Sciences,0602 Ecology,602,598
+5,Earth Sciences, 0403 Geology,403,566
+6,Engineering,09 Engineering,9,486
+7,Environmental Sciences, 05 Environmental Sciences,5,484
+10,Earth Sciences,0406 Physical Geography and Environmental Geoscience,406,368
+11,Engineering, 0909 Geomatic Engineering,909,323
+12,Earth Sciences, 0405 Oceanography,405,270
+13,Information and Computing Sciences,08 Information and Computing Sciences,8,233
+15,Earth Sciences, 0402 Geochemistry,402,210
+17,Agricultural and Veterinary Sciences, 07 Agricultural and Veterinary Sciences,7,173
+18,Economics, 14 Economics,14,168
+19,Engineering, 0907 Environmental Engineering,907,168
+20,Biological Sciences,0604 Genetics,604,148
+21,Earth Sciences, 0401 Atmospheric Sciences,401,146
+22,Environmental Sciences, 0501 Ecological Applications,501,131
+23,Earth Sciences, 0404 Geophysics,404,123
+24,Information and Computing Sciences, 0801 Artificial Intelligence and Image Processing,801,114
+25,Studies in Human Society, 16 Studies in Human Society,16,104
+26,Biological Sciences, 0603 Evolutionary Biology,603,102
+27,Biological Sciences,0605 Microbiology,605,102
+28,Information and Computing Sciences, 0806 Information Systems,806,101
+29,Chemical Sciences,03 Chemical Sciences,3,99
+30,Biological Sciences,0607 Plant Biology,607,99
+31,Medical and Health Sciences, 11 Medical and Health Sciences,11,88
+32,Studies in Human Society, 1604 Human Geography,1604,88
+33,Economics,1402 Applied Economics,1402,81
+34,Environmental Sciences,0503 Soil Sciences,503,77
+36,Engineering, 0905 Civil Engineering,905,73
+38,Chemical Sciences, 0306 Physical Chemistry (incl. Structural),306,67
+43,Medical and Health Sciences,1117 Public Health and Health Services,1117,53
+44,Physical Sciences, 02 Physical Sciences,2,51
+45,Chemical Sciences, 0399 Other Chemical Sciences,399,48
+46,Built Environment and Design, 1205 Urban and Regional Planning,1205,46
+48,Biological Sciences, 0699 Other Biological Sciences,699,44
+50,Built Environment and Design, 12 Built Environment and Design,12,41
+51,Biological Sciences, 0608 Zoology,608,39
+52,Psychology and Cognitive Sciences, 1701 Psychology,1701,38
+53,Engineering, 0915 Interdisciplinary Engineering,915,38
+54,Mathematical Sciences, 01 Mathematical Sciences,1,38
+57,Agricultural and Veterinary Sciences, 0704 Fisheries Sciences,704,35
+59,Biological Sciences,0601 Biochemistry and Cell Biology,601,35
+60,Chemical Sciences, 0301 Analytical Chemistry,301,33
+61,Psychology and Cognitive Sciences,17 Psychology and Cognitive Sciences,17,32
+62,Physical Sciences, 0299 Other Physical Sciences,299,30
+63,"Commerce, Management, Tourism and Services"," 15 Commerce, Management, Tourism and Services",15,30
+65,Engineering, 0906 Electrical and Electronic Engineering,906,28
+67,Mathematical Sciences, 0104 Statistics,104,26
+70,Engineering,0912 Materials Engineering,912,23
+71,Physical Sciences, 0203 Classical Physics,203,23
+73,Agricultural and Veterinary Sciences,0703 Crop and Pasture Production,703,23
+74,Technology, 10 Technology,10,22
+77,Studies in Human Society,1605 Policy and Administration,1605,20
+78,Agricultural and Veterinary Sciences, 0705 Forestry Sciences,705,19
+80,Studies in Human Society, 1606 Political Science,1606,18
+81,Mathematical Sciences,0102 Applied Mathematics,102,18
+82,Studies in Human Society,1608 Sociology,1608,18
+84,Engineering, 0904 Chemical Engineering,904,16
+85,"Commerce, Management, Tourism and Services", 1507 Transportation and Freight Services,1507,16
+87,Law and Legal Studies, 18 Law and Legal Studies,18,15
+92,Law and Legal Studies,1801 Law,1801,13
+94,Technology,1005 Communications Technologies,1005,12
+95,Information and Computing Sciences, 0803 Computer Software,803,11
+96,Economics, 1499 Other Economics,1499,11
+97,Medical and Health Sciences,1108 Medical Microbiology,1108,11
+99,Medical and Health Sciences,1109 Neurosciences,1109,10
+102,History and Archaeology, 21 History and Archaeology,21,9
+100,Built Environment and Design, 1202 Building,1202,9
+101,Engineering,0914 Resources Engineering and Extractive Metallurgy,914,9
+104,Economics,1403 Econometrics,1403,8
+105,Technology, 1007 Nanotechnology,1007,8
+106,Chemical Sciences, 0302 Inorganic Chemistry,302,8
+103,Earth Sciences, 0499 Other Earth Sciences,499,8
+108,Engineering,0911 Maritime Engineering,911,7
+113,Information and Computing Sciences, 0804 Data Format,804,6
+110,Chemical Sciences, 0303 Macromolecular and Materials Chemistry,303,6
+112,Physical Sciences,0201 Astronomical and Space Sciences,201,6
+120,Agricultural and Veterinary Sciences, 0707 Veterinary Sciences,707,5
+122,Physical Sciences," 0202 Atomic, Molecular, Nuclear, Particle and Plasma Physics",202,5
+121,Engineering, 0910 Manufacturing Engineering,910,5
+123,Medical and Health Sciences, 1103 Clinical Sciences,1103,5
+119,"Language, Communication, and Culture"," 20 Language, Communication and Culture",20,5
+117,"Commerce, Management, Tourism and Services",1503 Business and Management,1503,5
+118,Agricultural and Veterinary Sciences, 0799 Other Agricultural and Veterinary Sciences,799,5
+130,Engineering, 0903 Biomedical Engineering,903,4
+133,Mathematical Sciences, 0103 Numerical and Computational Mathematics,103,4
+131,Studies in Human Society, 1603 Demography,1603,4
+132,Technology, 1003 Industrial Biotechnology,1003,4
+128,History and Archaeology,2101 Archaeology,2101,4
+126,Economics, 1401 Economic Theory,1401,4
+125,Philosophy and Religious Studies, 22 Philosophy and Religious Studies,22,4
+124,Studies in Human Society, 1601 Anthropology,1601,4
+148,Psychology and Cognitive Sciences, 1702 Cognitive Sciences,1702,3
+147,Biological Sciences,0606 Physiology,606,3
+146,Medical and Health Sciences, 1199 Other Medical and Health Sciences,1199,3
+145,Information and Computing Sciences, 0802 Computation Theory and Mathematics,802,3
+143,Agricultural and Veterinary Sciences," 0701 Agriculture, Land and Farm Management",701,3
+139,Philosophy and Religious Studies, 2202 History and Philosophy of Specific Fields,2202,3
+137,Engineering, 0913 Mechanical Engineering,913,3
+138,Education, 13 Education,13,3
+142,Medical and Health Sciences,1111 Nutrition and Dietetics,1111,3
+141,Medical and Health Sciences,1113 Ophthalmology and Optometry,1113,3
+173,"Language, Communication, and Culture",2002 Cultural Studies,2002,2
+171,Education,1303 Specialist Studies In Education,1303,2
+170,Studies in Human Society, 1699 Other Studies In Human Society,1699,2
+169,"Commerce, Management, Tourism and Services",1505 Marketing,1505,2
+167,Chemical Sciences,0307 Theoretical and Computational Chemistry,307,2
+164,Engineering, 0908 Food Sciences,908,2
+160,Built Environment and Design, 1203 Design Practice and Management,1203,2
+159,Medical and Health Sciences, 1107 Immunology,1107,2
+155,Physical Sciences, 0205 Optical Physics,205,2
+154,Studies in Human Society, 1607 Social Work,1607,2
+153,Built Environment and Design,1201 Architecture,1201,2
+152,"Commerce, Management, Tourism and Services", 1506 Tourism,1506,2
+161,"Language, Communication, and Culture",2004 Linguistics,2004,2
+193,History and Archaeology, 2102 Curatorial and Related Studies,2102,1
+189,Chemical Sciences,0305 Organic Chemistry,305,1
+190,Philosophy and Religious Studies, 2204 Religion and Religious Studies,2204,1
+192,Education, 1302 Curriculum and Pedagogy,1302,1
+198,Medical and Health Sciences,1102 Cardiorespiratory Medicine and Haematology,1102,1
+196,Medical and Health Sciences, 1114 Paediatrics and Reproductive Medicine,1114,1
+181,History and Archaeology,2103 Historical Studies,2103,1
+186,Environmental Sciences, 0599 Other Environmental Sciences,599,1
+185,Medical and Health Sciences, 1115 Pharmacology and Pharmaceutical Sciences,1115,1
+184,"Language, Communication, and Culture",2005 Literary Studies,2005,1
+179,Philosophy and Religious Studies,2203 Philosophy,2203,1
+177,Agricultural and Veterinary Sciences,0706 Horticultural Production,706,1
+175,Chemical Sciences, 0304 Medicinal and Biomolecular Chemistry,304,1
+174,Technology,1001 Agricultural Biotechnology,1001,1
