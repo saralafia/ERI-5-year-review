@@ -5,13 +5,13 @@ library(colorspace)
 
 # TO DO deduplicate groups where divisions are also assigned
 #load 2009-2014 ERI data (groups and divisions)
-# data <- read.table("Documents/21_Fall_19/ERI-5-year-review/data/publications/ERI-publications-2009-2014-treemap.csv", header=T, sep=",")
-# colnames(data) <- c("ind", "division", "group", "label", "count")
+data_09 <- read.table("Documents/21_Fall_19/ERI-5-year-review/data/publications/ERI-publications-2009-2014-treemap-deduplicated.csv", header=T, sep=",")
+colnames(data_09) <- c("ind", "division", "group", "label", "count")
 # #head(data)
 
 #load 2014-2019 ERI data (groups and divisions)
-data <- read.table("Documents/21_Fall_19/ERI-5-year-review/data/publications/ERI-publications-2014-2019-treemap.csv", header=T, sep=",")
-colnames(data) <- c("ind", "division", "group", "label", "count")
+data_14 <- read.table("Documents/21_Fall_19/ERI-5-year-review/data/publications/ERI-publications-2014-2019-treemap-deduplicated.csv", header=T, sep=",")
+colnames(data_14) <- c("ind", "division", "group", "label", "count")
 #head(data)
 
 #load 2009-2014 PI data (groups and divisions)
@@ -27,16 +27,16 @@ colnames(data) <- c("ind", "division", "group", "label", "count")
 # set hex symbology for all treemaps (qualitative, 22 divisions)
 # TO DO standardize symbology across treemaps (e.g. 04 orange in any map)
 #pal <- qualitative_hcl(21)
-(jColors <-
-    with(data,
+(tmColors <-
+    with(data_14,
          data.frame(division = levels(division),
                     color = I(qualitative_hcl(nlevels(division))))))
 
-data.frame(subset(data, select = c(group, division)),
+data.frame(subset(data_14, select = c(group, division)),
            matchRetVal = match(data$group, data$group))
 
 # plot treemap
-p <- treemap(data,
+p <- treemap(data_14,
 
              # data
              index=c("division", "group"),
@@ -53,7 +53,7 @@ p <- treemap(data,
              # main
              title="ERI: Fields of Research (2014-2019)",
              fontsize.title = 22,
-             palette=jColors$color[match(data$group, jColors$group)],
+             palette=tmColors$color[match(data$group, tmColors$group)],
 
              # borders
              border.col=c("grey", "grey"),
