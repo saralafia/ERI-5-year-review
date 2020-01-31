@@ -3,11 +3,16 @@ library(tidyverse)
 library(treemap)
 library(colorspace)
 
-# #load 2009-2014 ERI deduplicated data (groups and divisions)
+# #load 2009-2014 ERI deduplicated publication data (groups and divisions)
 # data_09 <- read.table("Documents/21_Fall_19/ERI-5-year-review/data/publications/ERI-publications-2009-2014-treemap-deduplicated.csv", header=T, sep=",")
 # colnames(data_09) <- c("ind", "division", "group", "label", "count")
 # head(data_09)
-# 
+
+# #load 2009-2014 ERI project data (relationship)
+# proj_09 <- read.table("Documents/21_Fall_19/ERI-5-year-review/data/publications/ERI-publications-2009-2014-treemap-deduplicated.csv", header=T, sep=",")
+# colnames(proj_09) <- c("ind", "division", "group", "label", "count")
+# head(proj_09)
+
 # #load 2014-2019 ERI deduplicated data (groups and divisions)
 # data_14 <- read.table("Documents/21_Fall_19/ERI-5-year-review/data/publications/ERI-publications-2014-2019-treemap-deduplicated.csv", header=T, sep=",")
 # colnames(data_14) <- c("ind", "division", "group", "label", "count")
