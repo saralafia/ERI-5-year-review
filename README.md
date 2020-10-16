@@ -1,5 +1,5 @@
 ## ERI 5-year review
-This repository contains data, scripts, and figures for reporting and institutional review for the UC Santa Barbara Earth Research Institute [ERI](https://www.eri.ucsb.edu/) between 2014 - 2019. Administrative documents are found [here](https://adminweb.eri.ucsb.edu/Review/ReviewDocuments/).
+This repository contains data, scripts, and figures for reporting and institutional review for the UC Santa Barbara Earth Research Institute [ERI](https://www.eri.ucsb.edu/) between 2014 - 2019. Administrative documents are found [here](https://adminweb.eri.ucsb.edu/Review/ReviewDocuments/). Here, data are pre-processed for later analysis with [topic modeling](https://github.com/saralafia/ERI-maps) and [mapping](https://github.com/saralafia/ERI-dashboard).
 
 ### Data
 
